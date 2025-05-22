@@ -11,19 +11,6 @@ Dashboard: A protected page displayed after successful login, showing the user's
 Session Management: Uses Flask sessions to track logged-in users.
 Responsive UI: Built with Tailwind CSS for a clean, responsive interface.
 
-Project Structure
-your_project/
-├── app.py
-├── templates/
-│   ├── index.html
-│   ├── login.html
-│   ├── register.html
-│   ├── reset_password.html
-│   └── dashboard.html
-├── static/
-├── sentiment-analysis-cc7ce-firebase-adminsdk-fbsvc-59b4f37414.json
-└── requirements.txt
-
 
 app.py: Flask application with routes for index, login, register, password reset, dashboard, and logout.
 templates/: HTML templates for the UI, styled with Tailwind CSS.
